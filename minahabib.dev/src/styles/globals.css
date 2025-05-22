@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* base nav link style */
+.nav-link {
+  @apply text-gray-600 dark:text-gray-300 transition-colors hover:text-blue-600 dark:hover:text-blue-400;
+}
+
+/* active nav link style */
+.nav-link.active {
+  @apply text-black dark:text-white font-semibold;
+}

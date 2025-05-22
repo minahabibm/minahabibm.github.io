@@ -1,0 +1,8 @@
+export default function AboutPage() {
+  return (
+    <div className="max-w-3xl mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">About Me</h1>
+      <p>Hello World. My name is Mina Habib, I’m student at the College of Staten Island majoring in Computer Science. I found my passion for computer science at a young age, when I was introduced to Visual Basic workshop in my elementary school along side friends. From there I continued to educate myself on the developing technological world around me and chose to devote myself to subject entirely. My interests and background in both software and hardware make me a ideal choice for any employers. as I am always looking to learn more. I remain in touch with technology through current events and updates, by reading blogs, news articles and social media. I find that my accomplishments during my college education are my numerous internships which helped to make me more culturally aware and engaged with my community and city structure as well as graduating with two degrees to head-start my career. My interests in computer science are Machine Learning (AI), Web/Software Development and Cyber Security. My interests aside from computer science include health and fitness, playing chess and art. I am always looking to try new experiences to educate myself and enjoy being adventurous. I also take-delight in movies and series, especially DC and Marvel.</p>
+    </div>
+  );
+}
