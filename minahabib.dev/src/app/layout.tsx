@@ -1,6 +1,7 @@
+import "../styles/globals.css";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import "../styles/globals.css";
+
 
 export default function RootLayout({
   children,
@@ -9,11 +10,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-white text-black dark:bg-zinc-900 dark:text-white">
-        <div className="flex flex-col h-screen justify-between">
+      <body>
+        <div className={styles.container}>
           <Header />
           
-          <main className="grow flex-grow container mx-auto px-4 py-8">
+          <main className={styles.main}>
             {children}
           </main>
 
@@ -23,3 +24,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+const styles = {
+  container: "flex flex-col min-h-screen justify-between",
+  main: "flex-grow container mx-auto px-4 py-8",
+};
